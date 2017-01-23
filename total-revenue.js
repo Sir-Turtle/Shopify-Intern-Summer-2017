@@ -35,7 +35,7 @@ function getOrders(page) {
           orders = parsedData.orders;
 
           for(i = 0; i < orders.length; i++){
-              console.log('order.total_price: ', orders[i].total_price);
+              console.log('orders['+i+'].total_price: ', orders[i].total_price);
               total_revenue += parseInt(orders[i].total_price, 10);
           }
 
