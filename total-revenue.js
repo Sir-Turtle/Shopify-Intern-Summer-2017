@@ -36,10 +36,10 @@ function getOrders(page) {
 
           for(i = 0; i < orders.length; i++){
               console.log('orders['+i+'].total_price: ', orders[i].total_price);
-              total_revenue += parseInt(orders[i].total_price, 10);
+              total_revenue += parseFloat(orders[i].total_price);
           }
 
-          console.log('total_revenue: ', total_revenue);
+          console.log('total_revenue: ', total_revenue.toFixed(2));
           page++;
           console.log('page: ', page);
           getOrders(page);
