@@ -1,0 +1,25 @@
+{
+  "name": "shopify-intern-summer-2017",
+  "version": "1.0.0",
+  "description": "To count total order revenue of a successful Shopify merchant.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sir-Turtle/Shopify-Intern-Summer-2017.git"
+  },
+  "keywords": [
+    "Node.js",
+    "JavaScript",
+    "REST",
+    "Shopify."
+  ],
+  "author": "Tolga Akkaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sir-Turtle/Shopify-Intern-Summer-2017/issues"
+  },
+  "homepage": "https://github.com/Sir-Turtle/Shopify-Intern-Summer-2017#readme"
+}
