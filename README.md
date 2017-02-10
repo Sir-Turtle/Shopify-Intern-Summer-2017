@@ -1,5 +1,4 @@
-# Shopify-Intern-Summer-2017
-My solution for task #1 of intern application.
+# Testing Shopify API
 
 My environment:
 - MacOS Sierra version 10.12.2 
