@@ -35,16 +35,12 @@ function getOrders(page) {
           orders = parsedData.orders;
 
           for(i = 0; i < orders.length; i++){
-              console.log('orders['+i+'].total_price: ', orders[i].total_price);
               total_revenue += parseFloat(orders[i].total_price);
           }
-
-          console.log('total_revenue: ', total_revenue.toFixed(2));
           page++;
-          console.log('page: ', page);
           getOrders(page);
         } else {
-          return;
+          return console.log('The total order revenue is: ', total_revenue.toFixed(2));
         }
       } catch (e) {
         console.log(e.message);
